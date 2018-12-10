@@ -12,6 +12,11 @@ internal class Day6Test {
         assertEquals("17", out)
     }
 
-
+    @Test
+    fun testDay62() {
+        val input = listOf("1, 1", "1, 6", "8, 3", "3, 4", "5, 5", "8, 9")
+        val out = Day6.part2(input, 32)
+        assertEquals("16", out)
+    }
 
 }
